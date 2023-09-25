@@ -23,12 +23,9 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=<your_email>
 
-
-
 echo "Input directory: " $1
 i=$1
 cpus=8
-
 
 ### Run command - directory
 # high accuracy, 7x + slower (40+ hours)
